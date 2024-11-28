@@ -10,8 +10,11 @@ const Header = () => {
     <header className="bg-white shadow-md">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-gray-800">
-          DASIJE INVESTMENT LIMITED
+          <Link
+            href="/"
+            className="text-xl sm:text-2xl font-bold text-gray-800"
+          >
+            DASIJE INVESTMENT LIMITED
           </Link>
 
           {/* Mobile menu button */}
