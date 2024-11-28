@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-white text-lg font-bold mb-4">
-              Dasije Investment Ltd
+            DASIJE INVESTMENT LIMITED
             </h3>
             <p className="mb-4">
               Building excellence through quality construction and unwavering commitment 

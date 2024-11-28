@@ -11,7 +11,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-gray-800">
-            Desije Investment Ltd
+          DASIJE INVESTMENT LIMITED
           </Link>
 
           {/* Mobile menu button */}
