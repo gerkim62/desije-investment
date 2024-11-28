@@ -3,7 +3,9 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 
 const ContactSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section
+    id='contact'
+     className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -41,9 +43,7 @@ const ContactSection = () => {
                   <p className="text-gray-600 break-words">
                     dasijeinvestmentltd@gmail.com
                   </p>
-                  <p className="text-gray-600">
-                    infodekarito@gmail.com
-                  </p>
+                 
                 </div>
               </div>
 

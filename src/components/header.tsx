@@ -39,16 +39,16 @@ const Header = () => {
             <Link href="/" className="text-gray-600 hover:text-gray-900">
               Home
             </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900">
+            <Link href="#about" className="text-gray-600 hover:text-gray-900">
               About
             </Link>
             <Link
-              href="/services"
+              href="#services"
               className="text-gray-600 hover:text-gray-900"
             >
               Services
             </Link>
-            <Link href="/contact" className="text-gray-600 hover:text-gray-900">
+            <Link href="#contact" className="text-gray-600 hover:text-gray-900">
               Contact
             </Link>
           </div>
@@ -64,19 +64,19 @@ const Header = () => {
               Home
             </Link>
             <Link
-              href="/about"
+              href="#about"
               className="block py-2 text-gray-600 hover:text-gray-900"
             >
               About
             </Link>
             <Link
-              href="/services"
+              href="#services"
               className="block py-2 text-gray-600 hover:text-gray-900"
             >
               Services
             </Link>
             <Link
-              href="/contact"
+              href="#contact"
               className="block py-2 text-gray-600 hover:text-gray-900"
             >
               Contact

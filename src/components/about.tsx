@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // components/home/AboutSection.tsx
 import Image from "next/image";
-import Link from "next/link";
 
 const stats = [
   { id: 1, value: "25+", label: "Years Experience" },
@@ -12,7 +11,7 @@ const stats = [
 
 const AboutSection = () => {
   return (
-    <section className="py-20">
+    <section id="about" className="py-20">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Image */}
@@ -102,15 +101,6 @@ const AboutSection = () => {
                 <span className="text-gray-200">Timely Project Completion</span>
               </div>
             </div>
-
-            <Link
-              href="/about"
-              className="inline-block mt-8 px-6 py-3 bg-yellow-500 text-black 
-                         rounded-md font-semibold hover:bg-yellow-400 
-                         transition duration-300"
-            >
-              Learn More About Us
-            </Link>
           </div>
         </div>
       </div>
